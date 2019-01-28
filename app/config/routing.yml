@@ -1,0 +1,11 @@
+hafsa:
+    resource: "@HafsaBundle/Resources/config/routing.yml"
+    prefix:   /haf
+
+my_app_homee:
+    resource: "@MyAppHomeeBundle/Resources/config/routing.yml"
+    prefix:   /espoir
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

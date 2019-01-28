@@ -1,0 +1,19 @@
+MyApp\HomeeBundle\Entity\Test:
+    type: entity
+    table: null
+    repositoryClass: MyApp\HomeeBundle\Repository\TestRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        number:
+            type: string
+            length: '100'
+            unique: true
+    lifecycleCallbacks: {  }

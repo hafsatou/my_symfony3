@@ -1,0 +1,3 @@
+hafsa_homepage:
+    path:     /
+    defaults: { _controller: HafsaBundle:Default:index }

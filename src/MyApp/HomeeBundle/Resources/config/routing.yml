@@ -1,0 +1,3 @@
+my_app_homee_homepage:
+    path:     /
+    defaults: { _controller: MyAppHomeeBundle:Default:index }
